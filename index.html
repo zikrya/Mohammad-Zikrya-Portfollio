@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <title>Mohammad Zikrya</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="main.js"></script>
+</head>
+<body class="bg-custom-gradient text-white font-sans">
+    <div class="flex flex-col lg:flex-row lg:min-h-screen">
+        <!-- Left column for navigation and personal introduction -->
+        <div class="lg:flex lg:flex-col lg:w-1/3 lg:h-screen bg-gray-800 text-white">
+          <div class="p-8 flex flex-col items-center">
+            <img src="IMG_7250copy.jpg" alt="Headshot" class="lg:w-96 lg:h-96 w-64 h-64 rounded-full mb-4">
+            <h2 class="text-3xl lg:text-4xl font-bold text-center lg:text-left">Mohammad Zikrya</h2>
+            <h3 class="text-lg lg:text-xl font-semibold mb-6 text-center lg:text-left">Software Engineer</h3>
+            <div class="text-center lg:text-left mb-8">
+              <ul class="flex justify-center lg:justify-start items-center">
+                <li class="mr-5">
+                  <a href="https://github.com/zikrya" class="hover:text-slate-200">
+                    <i class="fa fa-github" style="font-size:24px"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/mohammad-zikrya-0516611b8/" class="hover:text-slate-200">
+                    <i class="fa fa-linkedin-square" style="font-size:24px;"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="scroll-indicator flex flex-col items-center">
+              <a href="#about" class="scroll-item flex items-center mb-4 group">
+                  <span class="line mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-active:w-16"></span>
+                  <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 ">ABOUT</span>
+              </a>
+              <a href="#experience" class="scroll-item flex items-center mb-4 group">
+                  <span class="line mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-active:w-16"></span>
+                  <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200">EXPERIENCE</span>
+              </a>
+              <a href="#projects" class="scroll-item flex items-center group">
+                  <span class="line mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-active:w-16"></span>
+                  <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200">PROJECTS</span>
+              </a>
+          </div>
+          </div>
+        </div>
+            <!-- Side menu for navigation -->
+
+        <!-- Right column for content sections -->
+        <div id="scroll-container" class="w-2/3 h-screen overflow-y-auto p-8">
+            <!-- Overview section -->
+            <section id="about" class="p-6">
+                <div class="mx-auto max-w-4xl text-base text-gray-200 mt-2 font-extralight">
+                  <p class="mt-0 mb-4">
+                   <b>Hi! I'm Zikrya</b> My journey into technology was sparked by a deep-rooted curiosity about the inner workings of mobile apps and web applications. Driven by this intrigue, I pursued a career in Computer Science, which led me to the City College of New York. Now, equipped with my degree, I've had the incredible opportunity to bring digital creations to life, working with innovative outfits like Waseem Petroleum Group and dynamic digital agencies.
+                  </p>
+                  <p class="mb-4">
+                    Today, my focus is on creating web experiences that are not just functional but also wonderfully intuitive. Specializing in full-stack development, I thrive on crafting the sweet spot where design and solid engineering intersect—resulting in digital magic that's as visually appealing as it is robust in performance. Beyond coding, I've also ventured into the realm of education, sharing my knowledge through projects like TutorTech-AI, and aiding others in their discovery of web development's joys and challenges.
+                  </p>
+                  <p>
+                    Away from the keyboard, I'm often found immersed in the pages of a gripping book or unraveling the latest plot twists of my favorite TV shows.
+                  </p>
+                </div>
+              </section>
+
+
+
+
+            <!-- Experience section -->
+            <div id="experience" class="pt-24">
+                <div class="relative mx-auto max-w-4xl border-white/5 px-2 backdrop-blur transition-all duration-200 sm:rounded-lg sm:border hover:sm:bg-white/5 sm:px-6 lg:px-8 mt-2 pb-5">
+                  <a href="https://www.linkedin.com/company/waseem-petroleum-group/mycompany/" class="group">
+                    <div class="flex justify-between items-center">
+                      <div>
+                        <span class="text-gray-300 text-sm">Feb 2024 — PRESENT</span>
+                        <h2 class="text-white font-bold text-xl">Contract Software Engineer</h2>
+                        <h3 class="text-blue-300">Waseem Petroleum Group</h3>
+                      </div>
+                      <div>
+                        <!-- Icon or SVG for the arrow -->
+                      </div>
+                    </div>
+                    <ul class="text-gray-200 text-sm mt-4 space-y-2">
+                      <li>Developed and integrated a React Native application with Excel for payroll management, slashing manual data entry errors by 30% and boosting operational efficiency by 25%.</li>
+                      <li>Spearheaded the automation of payroll and sales reporting via Google Cloud, cutting processing time by 40% and enhancing data accuracy, positively impacting over 200 employees.</li>
+                      <li>Overhauled sales tracking into a cloud-based automation system, resulting in a 50% increase in data reliability and enabling real-time analytics.</li>
+                    </ul>
+                    <div class="flex flex-wrap gap-4 mt-6">
+                      <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">JavaScript</span>
+                      <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">React Native</span>
+                      <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">Node.js</span>
+                      <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">GCP</span>
+                      <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">NoSQL</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="relative mx-auto max-w-4xl border-white/5 px-2 backdrop-blur transition-all duration-200 sm:rounded-lg sm:border hover:sm:bg-white/5 sm:px-6 lg:px-8 mt-6 pb-5">
+                    <a href="https://www.acadaca.com/" class="group">
+                      <div class="flex justify-between items-center">
+                        <div>
+                          <span class="text-gray-300 text-sm">Feb 2023 — Dec 2023</span>
+                          <h2 class="text-white font-bold text-xl">Contract Frontend Developer</h2>
+                          <h3 class="text-blue-300">Acadaca</h3>
+                        </div>
+                        <div>
+                          <!-- Icon or SVG for the arrow -->
+                        </div>
+                      </div>
+                      <ul class="text-gray-200 text-sm mt-4 space-y-2">
+                        <li>Executed strategic UI enhancements and functional upgrades on React-based web apps, boosting user engagement by 45% and interface responsiveness by 30%, leading to a 20% increase in conversions.</li>
+                        <li>Orchestrated a Magento-React integration, leveraging Magento Page Builder to streamline site creation process and developing custom modules resulting in a 40% decrease in site creation time and a 25% increase in user engagement metrics</li>
+                        <li>Resolved critical e-commerce front-end issues, achieving a 99.9% uptime for the shopping cart and payment systems, thereby ensuring a seamless transaction process which contributed to a 15% uptick in successful checkouts.</li>
+                      </ul>
+                      <div class="flex flex-wrap gap-4 mt-6">
+                        <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">JavaScript</span>
+                        <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">React</span>
+                        <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">Node.js</span>
+                        <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">AWS</span>
+                        <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">Magento Pagebuilder</span>
+                        <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">Shopify Development</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="relative mx-auto max-w-xl border-white/5 px-2 backdrop-blur transition-all duration-200 sm:rounded-lg sm:border hover:sm:bg-white/5 sm:px-6 lg:px-8 mt-6 pb-5">
+                    <a href="https://www.acadaca.com/" class="group">
+                      <div class="flex justify-between items-center">
+                        <div>
+                          <span class="text-gray-300 text-sm">Feb 2022 — Feb 2023</span>
+                          <h2 class="text-white font-bold text-xl">Frontend Developer Intern</h2>
+                          <h3 class="text-blue-300">Acadaca</h3>
+                        </div>
+                        <div>
+                          <!-- Icon or SVG for the arrow -->
+                        </div>
+                      </div>
+                      <ul class="text-gray-200 text-sm mt-4 space-y-2">
+                        <li>Spearheaded UI/UX overhauls that boosted customer satisfaction scores by 30% by ensuring high usability and modern aesthetic appeal.</li>
+                        <li>Identified and resolved front-end bottlenecks, leading to a 25% enhancement in site reliability and a 15% reduction in reported user experience issues.</li>
+                        <li>Proactively addressed and resolved front-end issues, significantly improving site stability and user experience consistency.</li>
+                      </ul>
+                      <div class="flex flex-wrap gap-4 mt-6">
+                        <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">JavaScript</span>
+                        <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">React</span>
+                        <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">Node.js</span>
+                        <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">Web Design</span>
+                        <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">Magento Pagebuilder</span>
+                      </div>
+                    </a>
+                  </div>
+              </div>
+
+
+            <!-- Projects section -->
+            <div id="projects" class="section-content pt-24">
+                <div class="relative mx-auto max-w-xl border-white/5 px-2 backdrop-blur transition-all duration-200 sm:rounded-lg sm:border hover:sm:bg-white/5 sm:px-6 lg:px-8 mt-2 pb-5">
+                    <a href="https://github.com/zikrya/Senior-Design-AI" class="group">
+                        <div class="flex items-start pt-4"> <!-- Changed to items-start to align the image and content at the top -->
+                            <img class="w-24 h-24 rounded mb-4 mr-4" src="tutortech-ai.png" alt=""> <!-- Moved image outside and before the text content -->
+                            <div>
+                                <h2 class="text-white font-bold text-xl">TutorTech-AI</h2>
+                                <p class="text-gray-200 text-sm mt-4 space-y-2">
+                                    Engineered a NextJS application that integrates GPT AI API to dynamically generate custom practice questions, enhancing the learning experience for Computer Science students with adaptive content. Implemented efficient data management and progress tracking using a PostgreSQL (Neon) database and Prisma, coupled with an AI algorithm to customize learning paths based on user interactions. Enhanced the interpretation of data with ChartsJS, providing intuitive and accessible visualizations of user progress and learning opportunities.
+                                </p>
+                                <div class="flex flex-wrap gap-4 mt-6">
+                                    <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">React</span>
+                                    <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">Node.js</span>
+                                    <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">AI</span>
+                                    <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">PostgreSQL</span>
+                                    <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">API Integration</span>
+                                    <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">Vercel</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="relative mx-auto max-w-xl border-white/5 px-2 backdrop-blur transition-all duration-200 sm:rounded-lg sm:border hover:sm:bg-white/5 sm:px-6 lg:px-8 mt-2 pb-5">
+                    <a href="https://github.com/zikrya/Be-Zack" class="group">
+                        <div class="flex items-start pt-4"> <!-- Changed to items-start to align the image and content at the top -->
+                            <img class="w-24 h-24 rounded mb-4 mr-4" src="Be-Z.png" alt=""> <!-- Moved image outside and before the text content -->
+                            <div>
+                                <h2 class="text-white font-bold text-xl">Be-Z</h2>
+                                <p class="text-gray-200 text-sm mt-4 space-y-2">
+                                    Developed a social media platform using Vite-React, integrated with Firebase services to enhance the user interface and experience. Implemented Firebase Authentication to secure user accounts and manage login processes effectively. Leveraged Firebase Storage for efficient management of user-generated content, such as images and videos. Employed Firebase Firestore to manage user data and content metadata, achieving real-time synchronization and efficient data handling.
+                                </p>
+                                <div class="flex flex-wrap gap-4 mt-6">
+                                    <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">React</span>
+                                    <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">Node.js</span>
+                                    <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">Firebase</span>
+                                    <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">NoSQL</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="relative mx-auto max-w-xl border-white/5 px-2 backdrop-blur transition-all duration-200 sm:rounded-lg sm:border hover:sm:bg-white/5 sm:px-6 lg:px-8 mt-2 pb-5">
+                    <a href="https://github.com/zikrya/Personal-Expense-Tracker" class="group">
+                        <div class="flex items-start pt-4"> <!-- Changed to items-start to align the image and content at the top -->
+                            <img class="w-24 h-24 rounded mb-4 mr-4" src="WiseWallet.png" alt=""> <!-- Moved image outside and before the text content -->
+                            <div>
+                                <h2 class="text-white font-bold text-xl">WiseWallet</h2>
+                                <p class="text-gray-200 text-sm mt-4 space-y-2">
+                                    I've created a Personal Finance Tracker that combines the speed of Vite React with the power of Firebase's backend. This user-friendly tool meticulously tracks and analyzes your financial data, from income and budgets to savings goals. It doesn't just monitor your spending; it offers insights and strategies to improve your financial health. Monthly, it generates detailed reports, showing how you're progressing towards your financial goals. This tracker simplifies financial management and acts as your personal financial advisor, helping you stay on track with your financial dreams.
+                                </p>
+                                <div class="flex flex-wrap gap-4 mt-6">
+                                    <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">React</span>
+                                    <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">Node.js</span>
+                                    <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">Firebase</span>
+                                    <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">Render</span>
+                                    <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">Jest</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="relative mx-auto max-w-xl border-white/5 px-2 backdrop-blur transition-all duration-200 sm:rounded-lg sm:border hover:sm:bg-white/5 sm:px-6 lg:px-8 mt-2 pb-5">
+                  <a href="https://github.com/zikrya/Option-Pricer" class="group">
+                      <div class="flex items-start pt-4"> <!-- Changed to items-start to align the image and content at the top -->
+                          <img class="w-24 h-24 rounded mb-4 mr-4" src="Option-Pricer.png" alt=""> <!-- Moved image outside and before the text content -->
+                          <div>
+                              <h2 class="text-white font-bold text-xl">Option-Pricer</h2>
+                              <p class="text-gray-200 text-sm mt-4 space-y-2">
+                                I built a practical Option Pricing Tool using React and Express that simplifies predicting stock option prices. This tool integrates Numerical Integration, Differentiation, Monte Carlo Simulation, Finite Difference Method, and Binomial Option Pricing to deliver reliable results. It's straightforward to use, aiming to make complex financial concepts accessible to everyone. Regular updates provide clear insights into how different factors affect option prices, helping users make informed investment decisions. This tool is perfect for anyone looking to understand and apply option pricing in real-world scenarios, offering a guided experience to enhance your investment strategy.
+                              </p>
+                              <div class="flex flex-wrap gap-4 mt-6">
+                                  <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">React</span>
+                                  <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">Node.js</span>
+                                  <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">Express</span>
+                                  <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">Render</span>
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="relative mx-auto max-w-xl border-white/5 px-2 backdrop-blur transition-all duration-200 sm:rounded-lg sm:border hover:sm:bg-white/5 sm:px-6 lg:px-8 mt-2 pb-5">
+                <a href="https://github.com/zikrya/Moves" class="group">
+                    <div class="flex items-start pt-4"> <!-- Changed to items-start to align the image and content at the top -->
+                        <div>
+                            <h2 class="text-white font-bold text-xl">Moves</h2>
+                            <p class="text-gray-200 text-sm mt-4 space-y-2">
+                              I developed an intuitive event ticketing platform using Remix and React, integrating Prisma with PostgreSQL for robust database management and Stripe API for secure payment processing. This streamlined approach simplifies ticket sales and event organization, ensuring a seamless user experience. Additionally, I implemented a QR code ticket validation system to efficiently manage event admissions, enhancing operational efficiency and attendee satisfaction. This platform is designed to enhance overall event success by expediting check-ins and managing entries effectively, providing a convenient and secure solution for event organizers and attendees alike.
+                            </p>
+                            <div class="flex flex-wrap gap-4 mt-6">
+                                <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">Remix React</span>
+                                <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">TypeScript</span>
+                                <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">Node.js</span>
+                                <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">Stripe</span>
+                                <span class="backdrop-blur transition-all duration-200 text-blue-200 text-sm font-semibold px-2.5 py-0.5 rounded-full">AWS</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+

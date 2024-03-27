@@ -1,0 +1,57 @@
+.bg-custom-gradient {
+    background: radial-gradient(#050714 0%, #10163c 52.03%, #090c20 67.19%);
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Roboto Mono', sans-serif !important;
+}
+
+
+.scroll-indicator a {
+    position: relative;
+    color: #ABBBC2; /* Adjust the color to match inactive state */
+    padding-left: 2rem; /* Space for the line */
+    text-decoration: none;
+    font-size: 1rem; /* Adjust the font size as necessary */
+    transition: color 0.3s ease, padding-left 0.3s ease;
+    white-space: nowrap; /* Ensure text doesn't wrap */
+}
+
+.scroll-indicator a .line {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 2px;
+    width: 1rem; /* Default width */
+    background-color: #ABBBC2; /* Line color for inactive state */
+    transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.scroll-indicator a .nav-text {
+    transition: transform 0.3s ease; /* Animate the text shift */
+    display: inline-block; /* Make sure span behaves like a block for transform */
+}
+
+.scroll-indicator a:hover .line,
+.scroll-indicator a.active .line {
+    width: 2rem; /* Extended width for hover/active state */
+    background-color: #FFF; /* Line color for hover/active state */
+}
+
+.scroll-indicator a:hover .nav-text,
+.scroll-indicator a.active .nav-text {
+    transform: translateX(1rem); /* Shift text to the right */
+    color: rgb(191 219 254); /* Text color for hover/active state */
+}
+
+.scroll-indicator a.active {
+    padding-left: 3rem; /* Increase padding for the active link */
+    color: rgb(191 219 254); /* Text color for active link */
+}
+
+.hover-backdrop-blur:hover {
+    backdrop-filter: blur(12px);
+}
